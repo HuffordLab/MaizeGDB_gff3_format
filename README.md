@@ -43,6 +43,15 @@ agat_sp_manage_IDs.pl --gff input.gff3 --prefix Ab00001aa --tair  --output prefi
 
 `canonical_transcript_ids.txt` : list of transcript ids that are considered as primary transcript. You can run the TRaCE program to determine the canonical transcript and create a list of mRNA ids (one per line). The number should be equal to the gene count in GFF3
 
+```
+Ab00001aa000001_T001
+Ab00001aa000002_T002
+Ab00001aa000006_T001
+Ab00001aa000009_T003
+Ab00001aa000011_T001
+Ab00001aa000012_T001
+Ab00001aa000017_T001
+```
 
 ### Example:
 
