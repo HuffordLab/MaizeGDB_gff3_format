@@ -47,7 +47,9 @@ agat_sp_manage_IDs.pl --gff input.gff3 --prefix Ab00001aa --tair  --output prefi
 ### Example:
 
 ```
-maizegdb_gff3_formatter.py renamed_agat_formatted.gff3 canonical_transcript_ids.txt > maizeGDB_specifications.gff3 
+maizegdb_gff3_formatter.py   \
+     renamed_agat_formatted.gff3 \
+     canonical_transcript_ids.txt > maizeGDB_specifications.gff3 
 ```
 
 
